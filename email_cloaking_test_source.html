@@ -1,0 +1,106 @@
+<h4>Source Code for Test Email cloaking</h4>
+<p>Create a new article and copy and paste this code over the source code. This code covers all variants which should be cloaked via the email cloaking plugin.</p>
+<p><strong>Unicode <a href="https://github.com/joomla/joomla-cms/issues/39811">https://github.com/joomla/joomla-cms/issues/39811</a></strong></p>
+<p><strong>SRC <a href="https://github.com/joomla/joomla-cms/issues/39786">https://github.com/joomla/joomla-cms/issues/39786</a></strong></p>
+<p class="gh-header-title mb-2 lh-condensed f1 mr-0 flex-auto wb-break-word">CC address in email link <a href="https://github.com/joomla/joomla-cms/issues/21910">https://github.com/joomla/joomla-cms/issues/21910</a></p>
+<p><input name="t_email" type="text" value="test@example.org" /></p>
+<p><strong>Sample 1:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="../../ourdirectory/email-1@example.org"&gt;sample-1@example.org&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="../../ourdirectory/email-1@example.org">sample-1@example.org</a></p>
+<p><strong>Sample 2:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="../../ourdirectory/email-2@example.org"&gt;anytext&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="../../ourdirectory/email-2@example.org">anytext</a></p>
+<p><strong>Sample 3:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-3@example.org"&gt;email-3@example.org&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-3@example.org">email-3@example.org</a></p>
+<p><strong>Sample 4:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-4@example.org"&gt;&lt;span class="test" style="text-transform: uppercase;"&gt;email-4@example.org&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-4@example.org"><span class="test" style="text-transform: uppercase;">email-4@example.org</span></a></p>
+<p><strong>Sample 5:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-5@example.org"&gt;&lt;span class="test" style="text-transform: uppercase;"&gt;anytext&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-5@example.org"><span class="test" style="text-transform: uppercase;">anytext</span></a></p>
+<p><strong>Sample 6:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-6@example.org"&gt;anytext&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-6@example.org">anytext</a></p>
+<p><strong>Sample 7:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-7@example.org"&gt;&lt;img class="img-thumbnail" style="border: 1px solid #00f;" src="images/joomla_black.png" alt="" /&gt;&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-7@example.org"><img class="img-thumbnail" style="border: 1px solid #00f;" src="images/joomla_black.png" alt="" /></a></p>
+<p><strong>Sample 8:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-8@example.org"&gt;&lt;img class="img-thumbnail" style="border: 1px solid #00f;" src="images/joomla_black.png" alt="" /&gt;email-8@example.org&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-8@example.org"><img class="img-thumbnail" style="border: 1px solid #00f;" src="images/joomla_black.png" alt="" />email-8@example.org</a></p>
+<p><strong>Sample 9:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-9@example.org"&gt;&lt;img class="img-thumbnail" style="border: 1px solid #00f;" src="images/joomla_black.png" alt="" /&gt;any text&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-9@example.org"><img class="img-thumbnail" style="border: 1px solid #00f;" src="images/joomla_black.png" alt="" />any text</a></p>
+<p><strong>Sample 10:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-10@example.org?subject=Text"&gt;email-10@example.org&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-10@example.org?subject=Text">email-10@example.org</a></p>
+<p><strong>Sample 11:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-11@example.org?subject=Text"&gt;anytext&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-11@example.org?subject=Text">anytext</a></p>
+<p><strong>Sample 12:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-12@example.org?subject= Text"&gt;&lt;span class="test" style="text-transform: uppercase;"&gt;email-12@example.org&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-12@example.org?subject= Text"><span class="test" style="text-transform: uppercase;">email-12@example.org</span></a></p>
+<p><strong>Sample 13:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-13@example.org?subject= Text"&gt;&lt;span class="test" style="text-transform: uppercase;"&gt;anytext&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-13@example.org?subject= Text"><span class="test" style="text-transform: uppercase;">anytext</span></a></p>
+<p><strong>Sample 14:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-14@example.org?subject=Text"&gt;&lt;img class="img-thumbnail" style="border: 1px solid #00f;" src="images/joomla_black.png" alt="" /&gt;&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-14@example.org?subject=Text"><img class="img-thumbnail" style="border: 1px solid #00f;" src="images/joomla_black.png" alt="" /></a></p>
+<p><strong>Sample 15:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-15@example.org?subject=Text"&gt;&lt;img class="img-thumbnail" style="border: 1px solid #00f;" src="images/joomla_black.png" alt="" /&gt;email-15@example.org&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-15@example.org?subject=Text"><img class="img-thumbnail" style="border: 1px solid #00f;" src="images/joomla_black.png" alt="" />email-15@example.org</a></p>
+<p><strong>Sample 16:</strong></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-16@example.org?subject=Text"&gt;&lt;img class="img-thumbnail" style="border: 1px solid #00f;" src="images/joomla_black.png" alt="" /&gt;any text&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:email-16@example.org?subject=Text"><img class="img-thumbnail" style="border: 1px solid #00f;" src="images/joomla_black.png" alt="" />any text</a></p>
+<p><strong>Sample 17a:</strong></p>
+<p><small>emails in title attribute and between html tags</small></p>
+<p>&lt;p&gt;&lt;img class="img-thumbnail" style="border: 1px solid #00f;" title="email-17a@example.org" src="images/joomla_black.png" alt="" /&gt;&lt;/p&gt;</p>
+<p><img class="img-thumbnail" style="border: 1px solid #00f;" title="email-17a@example.org" src="images/joomla_black.png" alt="" /></p>
+<p><strong>Sample 17b:</strong></p>
+<p>&lt;p&gt;&lt;input type="text" placeholder="email-17b@example.org" /&gt;&lt;/p&gt;</p>
+<p><input type="text" placeholder="email-17b@example.org" /></p>
+<p><strong>Sample 18 a:</strong></p>
+<p><small>emails in title attribute and between html tags</small></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" title="email-18a-t@example.org" href="#"&gt;email-18a@example.org&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" title="email-18a-t@example.org" href="#">email-18a@example.org</a></p>
+<p><strong>Sample 18 b:</strong></p>
+<p>&lt;p&gt;&lt;a title="email-18b-t@example.org" href="#"&gt;email-18b@example.org&lt;/a&gt;&lt;/p&gt;</p>
+<p><a title="email-18b-t@example.org" href="#">email-18b@example.org</a></p>
+<p><strong>Sample 18 c:</strong></p>
+<p>&lt;ul&gt;<br />&lt;li title="email-18c-1@example.org"&gt;email-18c1@example.org&lt;/li&gt;<br />&lt;li title="email-18c-2@example.org"&gt;email-18c2@example.org&lt;/li&gt;<br />&lt;/ul&gt;</p>
+<p> </p>
+<ul>
+<li title="email-18c-1@example.org">email-18c1@example.org</li>
+<li title="email-18c-2@example.org">email-18c2@example.org</li>
+</ul>
+<p><strong>Sample 19 a:</strong></p>
+<p><small>emails between HTML tags</small></p>
+<p>&lt;p&gt;&lt;span&gt;email-19a@example.org&lt;/span&gt;&lt;/p&gt;</p>
+<p>email-19a@example.org</p>
+<p><strong>Sample 19 b:</strong></p>
+<p>&lt;ul&gt;<br />&lt;li&gt;email-19b.1@example.org&lt;/li&gt;<br />&lt;li&gt;email-19b.2@example.org&lt;/li&gt;<br />&lt;/ul&gt;</p>
+<p> </p>
+<ul>
+<li>email-19b.1@example.org</li>
+<li>email-19b.2@example.org</li>
+</ul>
+<p><strong>Sample 20:</strong></p>
+<p><small>unicode characters</small></p>
+<p>&lt;ul&gt;<br />&lt;li&gt;тест-20@домен.ком&lt;/li&gt;<br />&lt;li&gt;test-20@domain.com&lt;/li&gt;<br />&lt;li&gt;γλώσσα-20@τομέας.com&lt;/li&gt;<br />&lt;/ul&gt;</p>
+<ul>
+<li>тест-20@домен.ком</li>
+<li>test-20@domain.com</li>
+<li>γλώσσα-20@τομέας.com</li>
+</ul>
+<p>тест-20б@домен.ком<br />test-20b@domain.com<br />γλώσσα-20μ@τομέας.com</p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:тест-20-2@домен.ком"&gt;тест-20-2@домен.ком&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:тест-20-2@домен.ком">тест-20-2@домен.ком</a></p>
+<p>&lt;p&gt;&lt;a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:γλώσσα-20-2@τομέας.com"&gt;γλώσσα-20-2@τομέας.com&lt;/a&gt;&lt;/p&gt;</p>
+<p><a class="btn btn-danger" style="border: 2px solid #f00;" href="mailto:γλώσσα-20-2@τομέας.com">γλώσσα-20-2@τομέας.com</a></p>
+<p><strong>Sample 21:</strong></p>
+<p><small>Image filename in the form of an email</small></p>
+<p>img<img src="images/demofiles/test@image.png" width="215" height="121" loading="lazy" data-path="local-images:/demofiles/test@image.png" /></p>
+<p>img svg<img src="images/demofiles/test@image.png" width="100" height="100" loading="lazy" data-path="local-images:/demofiles/test@image.svg" /></p>
+<p>img mit title<img src="images/demofiles/test@image.png" alt="test@image.svg" width="100" height="100" loading="lazy" data-path="local-images:/demofiles/test@image.svg" /></p>
+<p>picture</p>
+<p><picture> <source srcset="local-images:/demofiles/test@image.svg" media="(min-width: 38em)" /> <source srcset="local-images:/demofiles/test@image.svg" /> <img src="local-images:/demofiles/test@image.svg" alt="" /> </picture></p>
