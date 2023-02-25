@@ -4,7 +4,7 @@ This is a source code for an article to test the EMail cloaking in Joomla. It co
 - Copy the raw data here and paste it as source code into the article.
 - Save the article.
 - create a new folder "demofiles" under "images"
-- copy the demofiles in the folder "images/demofiles"
+- copy the demofiles in the folder "images/demofiles" (Note that the @ character is preserved in the filenames.)
 - Display the article in the frontend
 
 # Example for PR https://github.com/joomla/joomla-cms/pull/39932
